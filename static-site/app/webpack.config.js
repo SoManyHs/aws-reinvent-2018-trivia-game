@@ -13,7 +13,7 @@ var setupEndpoint = function() {
     triviaEndpoint = 'https://demo-api.hsing-hui-demo.reinvent-trivia.com';
     break;
   case 'test':
-    triviaEndpoint = 'https://demo-test-api.hsing-hui-demo.reinvent-trivia.com';
+    triviaEndpoint = 'https://demo-api-test.hsing-hui-demo.reinvent-trivia.com';
     break;
   case 'development':
   case 'local':
