@@ -49,12 +49,12 @@ class TriviaBackendStack extends cdk.Stack {
 }
 
 const app = new cdk.App();
-new TriviaBackendStack(app, 'TriviaBackendTest', {
+new TriviaBackendStack(app, 'HHHTriviaBackendTest', {
   domainName: 'demo-api-test.hsing-hui-demo.reinvent-trivia.com',
   domainZone: 'hsing-hui-demo.reinvent-trivia.com',
   env: { account: '794715269151', region: 'us-east-1' }
 });
-new TriviaBackendStack(app, 'TriviaBackendProd', {
+new TriviaBackendStack(app, 'HHHTriviaBackendProd', {
   domainName: 'demo-api.hsing-hui-demo.reinvent-trivia.com',
   domainZone: 'hsing-hui-demo.reinvent-trivia.com',
   env: { account: '794715269151', region: 'us-east-1' }
