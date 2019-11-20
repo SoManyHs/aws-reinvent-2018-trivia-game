@@ -102,8 +102,8 @@ class TriviaGameBackendPipelineStack extends cdk.Stack {
         });
 
         // Test
-        const templatePrefix =  'TriviaBackend';
-        const testStackName = 'TriviaBackendTest';
+        const templatePrefix =  'HHHTriviaBackend';
+        const testStackName = 'HHHTriviaBackendTest';
         const changeSetName = 'StagedChangeSet';
 
         pipeline.addStage({
@@ -127,7 +127,7 @@ class TriviaGameBackendPipelineStack extends cdk.Stack {
         });
 
         // Prod
-        const prodStackName = 'TriviaBackendProd';
+        const prodStackName = 'HHHTriviaBackendProd';
 
         pipeline.addStage({
             stageName: 'Prod',
