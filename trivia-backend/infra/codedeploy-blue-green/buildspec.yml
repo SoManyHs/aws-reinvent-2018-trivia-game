@@ -40,8 +40,8 @@ phases:
       - cd infra/codedeploy-blue-green
       - mkdir build
       - npm ci
-      - node produce-config.js -g test -s HHHTriviaBackendTest -h TriviaBackendHooksTest
-      - node produce-config.js -g prod -s HHHTriviaBackendProd -h TriviaBackendHooksProd
+      - node produce-config.js -g test -s HHHTriviaBackendTest -h HHHTriviaBackendHooksTest
+      - node produce-config.js -g prod -s HHHTriviaBackendProd -h HHHTriviaBackendHooksProd
 
 artifacts:
   secondary-artifacts:
